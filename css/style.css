@@ -18,6 +18,9 @@
 @import "./biciletas/biciletas-lista.css";
 @import "./biciletas/biciletas.css";
 
+/* Bicileta */
+@import "./bicileta/bicileta.css";
+
 /* Seguros */
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
