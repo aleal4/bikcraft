@@ -7,7 +7,7 @@
   padding-bottom: 60px;
 }
 
-#bicileta .titulo p{
+#bicileta .titulo p {
   text-transform: uppercase;
 }
 
@@ -57,61 +57,62 @@
   letter-spacing: 0.015em;
   margin-bottom: 12px;
 }
- 
+
 .bicileta-informacoes,
 .bicileta-ficha {
-  padding: 32px; 
+  padding: 32px;
   background-color: var(--cor-12);
   border-radius: 4px;
 }
 
-.bicileta-informacoes{
+.bicileta-informacoes {
   margin-bottom: 40px;
   display: grid;
-  grid-template-columns: 1fr 1fr;  
+  grid-template-columns: 1fr 1fr;
   gap: 32px;
 }
 
-.bicileta-informacoes img{
+.bicileta-informacoes img {
   width: 24px;
   margin-bottom: 8px;
 }
 
-.bicileta-imagens h3{
+.bicileta-imagens h3 {
   margin-bottom: 8px;
-} 
-
-.bicileta-ficha li{
-  padding: 4px 0; 
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--cor-11);   
 }
 
-.bicileta-ficha li:last-child{
+.bicileta-ficha li {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cor-11);
+}
+
+.bicileta-ficha li:last-child {
   border-bottom: none;
 }
 
-.bicileta-ficha span{
+.bicileta-ficha span {
   color: var(--cor-6);
-} 
+}
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .bicileta {
-     grid-template-columns: 1fr;
-     padding-top: 40px; 
-     padding-bottom : 40px; 
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .bicileta-imagens {
     grid-row: 2;
   }
 }
- 
-@media (max-width: 400px){
-  .bicileta-informacoes{
-    grid-template-columns: 1fr ;
+
+@media (max-width: 400px) {
+  .bicileta-informacoes {
+    grid-template-columns: 1fr;
   }
-  .bicileta-comprar{
-    grid-template-columns: 1fr ;
+  .bicileta-comprar {
+    grid-template-columns: 1fr;
   }
 }
+ 
